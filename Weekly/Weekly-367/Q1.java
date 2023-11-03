@@ -1,3 +1,5 @@
+// https://leetcode.com/contest/weekly-contest-367/problems/find-indices-with-index-and-value-difference-i/
+
 public class Q1 {
     public int[] findIndices(int[] nums, int indexDifference, int valueDifference) {
         int[] ans = { -1, -1 };
