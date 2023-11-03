@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Stack;
 
 class LC_20 {
+    // https://leetcode.com/problems/valid-parentheses/
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 

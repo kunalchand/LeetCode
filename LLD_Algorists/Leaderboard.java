@@ -1,7 +1,6 @@
-// https://www.lowleveldesign.io/LLD/GameDesign/Scoreboard
 
 public class Leaderboard {
-
+    // https://www.lowleveldesign.io/LLD/GameDesign/Scoreboard
     public static final <T> void print(T t) {
         System.out.println(t);
     }
