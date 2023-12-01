@@ -31,15 +31,11 @@ public class LC_150 {
 
             Deque<String> stack = new ArrayDeque<>();
 
-            String first = "";
-            String operator = "";
-            String second = "";
-
             for (String token : tokens) {
                 if (isOperator(token, operators)) {
-                    operator = token;
-                    second = stack.pop();
-                    first = stack.pop();
+                    String operator = token;
+                    String second = stack.pop();
+                    String first = stack.pop();
 
                     stack.push(String.valueOf(calculateCombo(first, second, operator)));
                 } else {
